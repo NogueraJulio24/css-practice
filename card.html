@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Card</title>
+</head>
+
+<style>
+  html, body{
+    background-color: #f8f9fa;
+    font-size: 14px;
+    line-height: 1.7;
+    text-align: left;
+  }
+  
+  .card{
+    border-radius: 20px;
+    background-color: #fff;
+    margin-top: 0;
+    margin-bottom: 50px;
+    padding: 65px 40px 60px;
+    box-sizing: border-box;
+  }
+  .title::after{
+    content: "";
+    background: #ff5959;
+    display: block;
+    border-radius: 25px;
+    height: 5px;
+    width: 20px;
+    margin-top: 14px;
+  }
+
+  p.text-body{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    line-height: 25px;
+    color: gray !important;
+  }
+  
+</style>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <!-- Title -->
+                <div class="row">
+                        <div class="col-12">
+                          <section class="title">
+                            <h1><strong>About me.</strong></h1>
+                          </section>
+                        </div>
+                    </div>
+            
+                    <!-- content -->
+                    <div class="row">
+                        <!-- Mi photo -->
+                        <div class="col-4">
+                            <img src="" alt="My photo">
+                        </div>
+            
+                        <!-- My information -->
+                        <div class="col-8">
+                            <h2><strong>Hello,</strong></h2>
+            
+                            <p class="text-body">I am Bako Doe, web developer from London, United Kingdom. I have rich experience in web site design and building and customization, also I am good at wordpress.</p>
+            
+                            <div class="row">
+                                <div class="col-6">
+                                  <section class="card-info">
+                                    <strong>Name:</strong> Julio Noguera <br>
+                                    <strong>Birthday:</strong> 24/02/1995
+                                  </section>
+                                </div>
+                                <div class="col-6">
+                                    Location: Bogota <br>
+                                    Email: noguerajulio24@gmail.com
+                                </div>
+                            </div>
+            
+                            <div class="row">
+                                <div class="col-12">
+                                    <button class="btn btn-danger">Download my CV</button>
+                                    <button class="btn btn-info">Hire me</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
